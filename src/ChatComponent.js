@@ -1,12 +1,12 @@
 import {createComponent} from '@lit/react';
 import React from 'react';
-import Chat from '@carbon-labs/ai-chat/es/components/chat/chat.js';
+import CLABSChat from '@carbon-labs/ai-chat/es/components/chat/chat.js';
 
-export const CLABSChat = createComponent({
+export const Chat = createComponent({
 
   tagName: 'clabs-chat',
 
-  elementClass: Chat,
+  elementClass: CLABSChat,
 
   react: React,
 
